@@ -2,11 +2,11 @@
 
 int main() {
 
-  int initialNumber;
+  unsigned int initialNumber;
   printf("Enter an integer: ");
-  int inputNumber = scanf("%d", &initialNumber);
+  unsigned int inputNumber = scanf("%d", &initialNumber);
 
-  int collatzTest = initialNumber;
+  unsigned int collatzTest = initialNumber;
 
   while (collatzTest != 1) {
     if (collatzTest % 2 == 1) {
